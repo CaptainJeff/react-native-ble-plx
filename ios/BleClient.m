@@ -8,7 +8,7 @@
 
 #import "BleClient.h"
 
-@import MultiplatformBleAdapter;
+@import MultiplatformBleAdapterQNSDK;
 // #ifdef REACT_NATIVE_BLE_PLX_SWIFT
 // @import react_native_ble_plx_swift;
 // #else
