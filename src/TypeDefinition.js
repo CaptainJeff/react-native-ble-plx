@@ -1,8 +1,8 @@
 // @flow
 'use strict'
 
-import type { Device } from './Device'
 import { BleErrorCode } from './BleError'
+import type { Device } from './Device'
 
 /**
  * Bluetooth device id.
@@ -299,4 +299,14 @@ export const ConnectionPriority = {
    * Low power, reduced data rate connection setup.
    */
   LowPower: 2
+}
+
+/**
+ * Options which can be passed to scanning function
+ * @name ScanOptions
+ */
+export interface ScaleInfo {
+  gender: string;
+  age: number;
+  height: number;
 }
